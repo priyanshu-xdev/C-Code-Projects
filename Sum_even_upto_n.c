@@ -1,3 +1,7 @@
+Problem: Sum of Even Numbers up to N
+Write a C program to find the sum of all even numbers between 1 and a given number N (inclusive).
+
+
 #include <stdio.h>
 int main()
 {
