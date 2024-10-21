@@ -1,3 +1,8 @@
+Problem: Find the Factorial of a Number
+Write a C program to find the factorial of a given number. 
+The factorial of a non-negative integer n is the product of all positive integers less than or equal to n. It is denoted by n!.
+
+    
 #include<stdio.h>
 int main()
 {
