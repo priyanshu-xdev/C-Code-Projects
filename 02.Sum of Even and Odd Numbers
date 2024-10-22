@@ -1,4 +1,4 @@
-
+Write a program to calculate the sum of even and odd numbers separately from 1 to N, where N is an input provided by the user.
 
 #include <stdio.h>
 int main()
