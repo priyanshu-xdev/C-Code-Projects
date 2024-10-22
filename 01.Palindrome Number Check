@@ -1,4 +1,4 @@
-
+Write a program to check whether a given number is a palindrome or not. A number is a palindrome if it remains the same when its digits are reversed.
 
 
 #include <stdio.h>
