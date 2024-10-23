@@ -1,1 +1,4 @@
+Write a C program that functions as a simple calculator. 
+The program should take two integers and a character representing an operator (+, -, *, /) and perform the corresponding arithmetic operation.
+
 
