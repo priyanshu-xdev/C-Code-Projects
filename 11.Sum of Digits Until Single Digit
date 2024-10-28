@@ -8,3 +8,23 @@ Output: 2 (9 + 8 + 7 + 5 = 29 -> 2 + 9 = 11 -> 1 + 1 = 2)
 
 
 
+#include <stdio.h>
+int main()
+{
+    int num, r, sum = 0;
+    printf("Enter a Number:");
+    scanf("%d", &num);
+    while (num > 9)
+    {
+        sum = 0;
+        while (num > 0)
+        {
+            r = num % 10;
+            sum = sum + r;
+            num = num / 10;
+        }
+        num = sum;
+    }
+    printf("The sum of digits is %d", sum);
+    return 0;
+}
