@@ -1,1 +1,17 @@
 Generate the Fibonacci sequence up to n terms.
+
+#include <stdio.h>
+int main()
+{
+    int n, count, a = 0, b = 1, c;
+    printf("Enter a Number:");
+    scanf("%d", &n);
+    for (count = 1; count <= n; count++)
+    {
+        printf("%d ", a);
+        c = a + b;
+        a = b;
+        b = c;
+    }
+    return 0;
+}
