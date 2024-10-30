@@ -33,3 +33,22 @@ int main()
     return 0;
 }
 
+Calculate the factorial of a given number.
+
+#include <stdio.h>
+int main()
+{
+    int n, fact = 1, count;
+    printf("Enter a number:");
+    scanf("%d", &n);
+    for (count = 1; count <= n; count++)
+    {
+        fact = fact * count;
+    }
+    printf("Factorial is %d", fact);
+    return 0;
+}
+
+
+
+
