@@ -1,4 +1,4 @@
-
+Find the average of n numbers entered by the user.
 
 
 #include <stdio.h>
